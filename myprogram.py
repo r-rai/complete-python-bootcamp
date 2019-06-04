@@ -3,5 +3,5 @@ from TestPackage import some_main_script
 from TestPackage.SubPackage import subScript
 
 my_module()
-sub_script()
-main_script()
+subScript.sub_script()
+some_main_script.main_script()
